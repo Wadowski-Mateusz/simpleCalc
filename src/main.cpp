@@ -1,5 +1,6 @@
 //
 // Created by mateu on 17.10.2021.
+// Mateusz Wadowski Grp 24, lab 7
 //
 #include <iostream>
 #include "../include/calc.h"
