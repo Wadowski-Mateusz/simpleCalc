@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/mateu/simpleCalc/include/calc.h
+stdio.h
+-
+
+C:/Users/mateu/simpleCalc/src/main.cpp
+iostream
+-
+../include/calc.h
+C:/Users/mateu/simpleCalc/include/calc.h
+string
+-
+
