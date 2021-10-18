@@ -45,7 +45,7 @@ int main(int argc, char *argv[]){
             if(argc!= 6)
                 error();
             else
-                cout << calc.volume(1, 2, 3, 4) << endl;
+                cout << calc.volume(stoi(argv[2]), stoi(argv[3]), stoi(argv[4]),stoi(argv[5])) << endl;
         break;
 
         case 4:
