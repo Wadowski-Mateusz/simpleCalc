@@ -21,7 +21,6 @@ void error(){
 
 int main(int argc, char *argv[]){
 
-
     int a = 0;
     if (argc != 0)
         a = stoi(argv[1]); // konwersja ze string do liczby (int)
@@ -29,21 +28,21 @@ int main(int argc, char *argv[]){
     switch(a) {
 
         case 1:
-            if(argc!= 3)
+            if(argc!= 4)
                 error();
             else
-                cout << calc.add(1, 2) << endl;
+                cout <<calc.add(stoi(argv[2]), stoi(argv[3])) << endl;
         break;
 
         case 2:
-            if(argc!= 3)
+            if(argc!= 4)
                 error();
             else
-                cout << calc.subtract(1, 2) << endl;
+                cout << calc.subtract(stoi(argv[2]), stoi(argv[3])) << endl;
         break;
 
         case 3:
-            if(argc!= 5)
+            if(argc!= 6)
                 error();
             else
                 cout << calc.volume(1, 2, 3, 4) << endl;
